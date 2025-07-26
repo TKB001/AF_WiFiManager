@@ -1,4 +1,4 @@
-#include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
+#include <AF_WiFiManager.h> // https://github.com/tzapu/WiFiManager
 
 
 void setup() {

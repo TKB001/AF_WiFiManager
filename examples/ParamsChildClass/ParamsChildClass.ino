@@ -1,7 +1,7 @@
 /**
  * WiFiManagerParameter child class example
  */
-#include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
+#include <AF_WiFiManager.h> // https://github.com/tzapu/WiFiManager
 #include <Arduino.h>
 #include <EEPROM.h>
 

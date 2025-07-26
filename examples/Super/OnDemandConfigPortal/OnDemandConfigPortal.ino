@@ -3,7 +3,7 @@
  * It contains many of the public methods
  * 
  */
-#include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
+#include <AF_WiFiManager.h> // https://github.com/tzapu/WiFiManager
 #include <time.h>
 #include <stdio.h>
 
