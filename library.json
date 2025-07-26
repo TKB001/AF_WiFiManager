@@ -1,29 +1,35 @@
 {
-  "name": "WiFiManager",
+  "name": "AF_WiFiManager",
   "version": "2.0.17",
   "keywords": "wifi,wi-fi,esp,esp8266,esp32,espressif8266,espressif32,nodemcu,wemos,arduino",
   "description": "WiFi Configuration manager with web configuration portal for ESP boards",
   "authors":
   [
     {
-        "name": "tzapu",
-        "url": "https://github.com/tzapu"
-    },
-    {
-        "name": "tablatronix",
-        "url": "https://github.com/tablatronix",
+        "name":  "TKB001",
+        "url":   "https://github.com/TKB001",
         "maintainer": true
     }
   ],
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/tzapu/WiFiManager.git"
+    "url": "https://github.com/TKB001/AF_WiFiManager.git"
   },
-  "frameworks": "arduino",
-  "platforms": 
+  "homepage": "https://github.com/TKB001/AF_WiFiManager",
+  "export": {
+    "exclude": [
+      "linux",
+      "extras",
+      "tests"
+    ]
+  },
+  "dependencies":
   [
-    "espressif8266",
-    "espressif32"
-  ]
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": [ "espressif32", "espressif8266" ],
+  "examples": "examples/*/*/*.ino",
+  "headers": "AF_WiFiManager.h"
 }
